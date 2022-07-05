@@ -16,9 +16,6 @@ option = st.selectbox(
 
 st.sidebar.image("https://digital.hbs.edu/platform-digit/wp-content/uploads/sites/2/2019/02/LC-Logo-Official-min.png", width = 300)
 
-st.sidebar.header("User Input Parameters")
-
-
 
 mapping_dict = {"emp_length": {"10+ years": 10,
                            "9 years": 9,
