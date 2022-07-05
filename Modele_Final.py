@@ -107,7 +107,7 @@ def user_input_features():
 def show_results():
     st.subheader("User Input parameters")
     st.write(cred)
-    model_cred = pickle.load(open("3. Modèle Final_pkl_AL. Sow & M. El Idrissi.pkl", "rb"))
+    model_cred = pickle.load(open("Modele_Final.pkl", "rb"))
     prediction = model_cred.predict(cred)
     prediction_proba = model_cred.predict_proba(cred)
     st.subheader("Class labels and their corresponding index number")
